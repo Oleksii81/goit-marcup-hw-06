@@ -427,6 +427,45 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="modal-head">Leave your contcts and we will call you back</p>
+        <form class="modal-form">
+          <label class="form-label">
+            <span class="label-text">name</span>
+            <input
+              type="text"
+              class="form-input"
+              name="username"
+              minlength="3"
+              required
+            />
+          </label>
+          <label class="form-label">
+            <span class="label-text">phone</span>
+            <input class="form-input" type="tel" name="phone_number" />
+          </label>
+          <label class="form-label">
+            <span class="label-text">email</span>
+            <input
+              class="form-input"
+              type="email"
+              class="form-input"
+              name="mail"
+              required
+            />
+          </label>
+
+          <label class="form-label">
+            <span class="label-text">comment</span>
+            <textarea
+              class="form-input-textarea"
+              name="feedback"
+              rows="5"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+
+          <button class="modal-btn-send" type="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
