@@ -429,39 +429,64 @@
         <form class="modal-form">
           <label class="form-label">
             <span class="label-text">name</span>
-            <input
-              type="text"
-              class="form-input"
-              name="username"
-              minlength="3"
-              required
-            />
+            <span class="icon-holder"
+              ><input
+                type="text"
+                class="form-input form-focus"
+                name="username"
+                minlength="3"
+                required
+              />
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </span>
           </label>
           <label class="form-label">
             <span class="label-text">phone</span>
-            <input class="form-input" type="tel" name="phone_number" />
+            <span class="icon-holder">
+              <input
+                class="form-input form-focus"
+                type="tel"
+                name="phone_number"
+              />
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </span>
           </label>
           <label class="form-label">
             <span class="label-text">email</span>
-            <input
-              class="form-input"
-              type="email"
-              class="form-input"
-              name="mail"
-              required
-            />
+            <span class="icon-holder">
+              <input
+                class="form-input form-focus"
+                type="email"
+                name="mail"
+                required
+              />
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </span>
           </label>
-
           <label class="form-label">
             <span class="label-text">comment</span>
             <textarea
-              class="form-input-textarea"
+              class="form-input-textarea form-focus"
               name="feedback"
               rows="5"
               placeholder="Text input"
             ></textarea>
           </label>
-
+          <label>
+            <input
+              class="form-checkbox"
+              type="checkbox"
+              value="Privacy Policy"
+            /><span class="checkbox-text">
+              I accept the terms and conditions of the Privacy Policy</span
+            >
+          </label>
           <button class="modal-btn-send" type="submit">Send</button>
         </form>
       </div>
