@@ -435,7 +435,6 @@
                 class="form-input form-focus"
                 name="username"
                 minlength="3"
-                required
               />
               <svg class="form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
@@ -458,12 +457,7 @@
           <label class="form-label">
             <span class="label-text">email</span>
             <span class="icon-holder">
-              <input
-                class="form-input form-focus"
-                type="email"
-                name="mail"
-                required
-              />
+              <input class="form-input form-focus" type="email" name="mail" />
               <svg class="form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
@@ -484,11 +478,10 @@
               type="checkbox"
               value="Privacy Policy"
             />
-            <span class="box-icon">
-              <svg class="form-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-box-empty"></use></svg></span
-            ><span class="checkbox-text">
-              I accept the terms and conditions of the Privacy Policy</span
+            <span class="box-icon"> </span>
+            <span class="checkbox-text">
+              I accept the terms and conditions of the
+              <a class="policy" href="">Privacy Policy</a></span
             >
           </label>
           <button class="modal-btn-send" type="submit">Send</button>
