@@ -261,15 +261,13 @@ img {
     display: flex;
     flex-direction: column;
     width: 360px;
-    margin: 0 auto;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .textarea {
     display: flex;
         flex-direction: column;
         width: 360px;
-        margin: 0 auto;
-    padding-bottom: 16px;
+        margin-bottom: 16px;
 }
 .form-input {
     width: 360px;
